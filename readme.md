@@ -40,8 +40,6 @@ Watch our video demo above to see the amazing fights played by RL agents!
 
     These assets are not required to run STORM itself. They are only needed for OC-STORM, and are not required if you are only interested in running STORM on Hollow Knight.
 
-    For Atari games, the environment setup is complete after completing step 4.
-
     ```bash
     bash scripts/download.sh
     ```
@@ -50,7 +48,7 @@ Watch our video demo above to see the amazing fights played by RL agents!
 
     Or download and extract manually if you prefer: [coco_lvis_h18_itermask.pth](https://github.com/hkchengrex/Cutie/releases/download/v1.0/coco_lvis_h18_itermask.pth) | [cutie-small-mega.pth](https://github.com/hkchengrex/Cutie/releases/download/v1.0/cutie-small-mega.pth) | [segmentation_masks.tar](https://github.com/weipu-zhang/OC-STORM/releases/download/v1.0/segmentation_masks.tar)
 
-
+    For Atari games, the environment setup is complete after completing this step.
 
 5. For Hollow Knight installation and configuration: [hollow_knight.md](docs/hollow_knight.md)
 
