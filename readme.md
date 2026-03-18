@@ -20,31 +20,37 @@ Watch our video demo above to see the amazing fights played by RL agents!
 
 1. Create conda environment:
 
-```bash
-conda create -n oc-storm python=3.12
-```
+    ```bash
+    conda create -n oc-storm python=3.12
+    ```
 
 2. Activate environment:
 
-```bash
-conda activate oc-storm
-```
+    ```bash
+    conda activate oc-storm
+    ```
 
 3. Install Python dependencies:
 
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-4. Download CUTIE model weights:
+4. Download CUTIE model weights and segmentation masks:
 
-```bash
-bash scripts/download.sh
-```
+    These assets are not required to run STORM itself. They are only needed for OC-STORM, and are not required if you are only interested in running STORM on Hollow Knight.
 
-The folder `feature_extractor/cutie/weights` should contain `coco_lvis_h18_itermask.pth` and `cutie-small-mega.pth` afterwards.
+    For Atari games, the environment setup is complete after completing step 4.
 
-For Atari, the environment setup is complete after this step.
+    ```bash
+    bash scripts/download.sh
+    ```
+
+    Afterwards, the folder `feature_extractor/cutie/weights` should contain `coco_lvis_h18_itermask.pth` and `cutie-small-mega.pth`, and the project root should contain `segmentation_masks` folder (unless the .tar file was not extracted).
+
+    Or download and extract manually if you prefer: [coco_lvis_h18_itermask.pth](https://github.com/hkchengrex/Cutie/releases/download/v1.0/coco_lvis_h18_itermask.pth) | [cutie-small-mega.pth](https://github.com/hkchengrex/Cutie/releases/download/v1.0/cutie-small-mega.pth) | [segmentation_masks.tar](https://github.com/weipu-zhang/OC-STORM/releases/download/v1.0/segmentation_masks.tar)
+
+
 
 5. For Hollow Knight installation and configuration: [hollow_knight.md](docs/hollow_knight.md)
 
