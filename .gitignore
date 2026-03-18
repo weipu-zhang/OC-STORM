@@ -2,10 +2,11 @@ __pycache__
 runs
 archive_runs
 *.h5
-analyze_cutie_feature
+segmentation_masks
 *.pth
 eval_videos
 eval_results
 logs
 *.log
 *.old
+*.tar
