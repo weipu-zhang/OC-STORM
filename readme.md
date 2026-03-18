@@ -8,6 +8,7 @@ Work was initiated at the University of Edinburgh and completed at the Beijing I
 
 [![YouTube](https://img.shields.io/badge/YouTube-Video-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=lGQLdTBY4_Q)
 [![Bilibili](https://img.shields.io/badge/Bilibili-Video-00A1D6?logo=bilibili&logoColor=white)](https://www.bilibili.com/video/BV123HyzuEJy)
+[![Project Page](https://img.shields.io/badge/Project-Page-2ea44f)](https://oc-storm.weipuzhang.com/)
 
 Watch our video demo above to see the amazing fights played by RL agents!
 
