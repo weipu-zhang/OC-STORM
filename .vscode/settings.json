@@ -1,0 +1,15 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            // Disable auto-fix on save (to prevent it from deleting code)
+            "source.fixAll.ruff": "never"
+        }
+    },
+    // Disable Ruff linting (don't show red squiggles)
+    "ruff.lint.enable": false,
+    // Disable other settings that might affect imports
+    "python.analysis.importFormatOnPaste": false,
+    "ruff.organizeImports": false
+}

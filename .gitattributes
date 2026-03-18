@@ -1,0 +1,3 @@
+# Ensure all shell and python scripts are checked out with LF line endings
+*.sh text eol=lf
+*.py text eol=lf

@@ -1,0 +1,21 @@
+[tool.ruff]
+# 代码每行最大长度
+line-length = 120
+# 目标 Python 版本
+target-version = "py312"
+
+[tool.ruff.lint]
+# 启用的规则集
+# E/W: pycodestyle, F: Pyflakes, I: isort(导入排序), 
+# N: pep8-naming, UP: pyupgrade(语法升级)
+# select = ["E", "W", "F", "I", "N", "UP", "B"]
+select = ["E", "W", "F", "B"]
+# 自动修复时忽略的规则
+ignore = []
+
+[tool.ruff.format]
+# 类似 Black 的格式化风格
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"

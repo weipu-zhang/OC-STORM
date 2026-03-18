@@ -1,0 +1,17 @@
+torch
+torchvision
+einops
+tensorboard
+tensorboardX
+tqdm
+matplotlib
+gymnasium[atari,accept-rom-license]
+opencv-python
+omegaconf
+hydra-core
+colorama
+keyboard
+mss
+# We used python 3.11 and ray 2.53.0
+# Client and server should use the same version of python and ray
+ray==2.53.0
