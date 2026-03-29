@@ -4,7 +4,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 cd "${PROJECT_ROOT}"
 
-# Boxing Pong Breakout RoadRunner
+# Boxing Pong etc.
 env_prefix="Boxing"
 CUDA_VISIBLE_DEVICES=0 python -u train.py \
     --run_name "${env_prefix}-DEV" \
@@ -25,7 +25,7 @@ CUDA_VISIBLE_DEVICES=0 python -u train.py \
 #     --config_name "hollow_knight_vector_visual"
 
 # boss_name="MantisLords"
-# CUDA_VISIBLE_DEVICES=0 python -u train_async.py \
+# python -u train_async.py \
 #     --run_name "${boss_name}-async-DEV" \
 #     --env_name "HollowKnight/${boss_name}" \
 #     --seed 42 \
