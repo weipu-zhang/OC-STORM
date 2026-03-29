@@ -17,9 +17,10 @@ This distributed setup has several practical advantages:
 2. On Windows, sending keyboard inputs to the game window requires that window to stay in the foreground. Without a virtual machine or a dedicated machine for the game, training would block normal desktop use and make monitoring much less convenient.
 3. The setup is naturally scalable: as shown in `train_async.py`, a more powerful non-Windows node can be used for faster training.
 
-We developed a mod to extract hit and damage signals for reward computation. To install the mod, first install the mod API from https://github.com/hk-modding/api/releases. There are more detailed and intuitive tutorials for this step in the Hollow Knight modding community, so we do not repeat them here. After that, install the provided `HKRLEnv` mod from `game_mod/HKRLEnv/`.
-
 ## Environment setup
+
+We developed a mod to extract hit and damage signals for reward computation. To install the mod, first install the mod API from https://github.com/hk-modding/api/releases. There are more detailed and intuitive tutorials for this step in the Hollow Knight modding community, so we do not repeat them here. After that, install the provided `HKRLEnv` mod from `game_mod/HKRLEnv/`.
+The source code of the `HKRLEnv` mod is at [here](https://github.com/weipu-zhang/HKRLEnv).
 
 The game environment and the training environment must use the same version of `python` and `ray`.
 
