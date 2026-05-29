@@ -61,6 +61,9 @@ Most of our runs are conducted on 3090/4090, and we recommend using similar devi
 
 For Atari, a GPU with memory >= 11GB is preferred.
 
+## Mask generation
+
+Following Cutie, the prompt masks are labeled with [RITM](https://github.com/supervisely-ecosystem/ritm-interactive-segmentation), then converted to class-indexed PNG format.
 
 ## Train, Evaluate, and Monitor
 
